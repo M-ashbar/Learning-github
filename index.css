@@ -1,3 +1,40 @@
 body {
-    background-color: tan;
+    background-color: rgb(13, 247, 142);
+    text-transform: uppercase;
+    background-image: url("https://d27jswm5an3efw.cloudfront.net/app/uploads/2019/07/insert-image-html-2.jpg");
+    
 }
+li {
+   font-size: 30px 
+   margin=5px
+   padding =5px
+   border=1px white
+    
+}    
+li{
+
+    border-color: aqua;
+
+}
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.css-text{
+    text-decoration: underline;
+
+}
+#css-heading{
+    text-align: center;
+}
+
+
+div>h1{
+    color: rgb(0, 0, 0,);
+}
+
+div>p>strong{
+    font-style: oblique;
+}
+
+
