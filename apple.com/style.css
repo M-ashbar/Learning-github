@@ -1,0 +1,31 @@
+.parent {
+    border: solid,black,1px;
+    box-shadow: 0px 1px 1px lightgray;
+    padding-top: 10px;
+    background-color: rgb(204, 194, 194);
+    cursor: pointer;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+.first {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+    gap: 25px;
+    margin-top: 10px;
+    margin-bottom: 50%;
+}
+.Vissionpro {
+    cursor: pointer;
+}
+.foot {
+    background-color: rgb(103, 151, 212);
+}
+.foot > li {
+    display: flex;
+    flex-direction: column;
+}
