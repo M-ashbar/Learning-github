@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="web_container">
+      <!-- navbar -->
+      <nav class="navbar sticky-top bg-dark bg-body-tertiary">
+        <div class="container_fluid mx-4 d-flex w-100 justify-content-between">
+          <div>
+            <a class="navbar-brand" href="#">
+              <i class="fa-solid fa-bars"></i>
+            </a>
+            <a class="navbar-brand" href="#">
+              <i class="fa-brands fa-youtube" style="color: red"></i>
+            </a>
+          </div>
+          <div class="search_container">
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Search"
+                aria-label="Dollar amount (with dot and two decimal places)"
+              />
+              <span class="input-group-text">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </span>
+            </div>
+            <span class="mic">
+              <i class="fa-solid fa-microphone"></i>
+            </span>
+          </div>
+          <div class="d-flex align-items-center">
+            <i class="fa-solid fa-video mx-1 p-2"></i>
+            <i class="fa-regular fa-bell mx-1 p-2"></i>
+            <img
+              height="30px"
+              width="30px"
+              class="mx-1 rounded-circle"
+              src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fHww"
+            />
+          </div>
+        </div>
+      </nav>
+
+      <!-- body section -->
+
+      <div class="row body_container px-3" style="font-weight: 500;">
+        <div class="col-2 menu_container border-end" style="font-weight: 100;">
+          <div class="d-flex align-items-center p-1 icon_row">
+            <i class="fa-solid fa-house"></i>
+            <span class="lead ps-3 fw-medium">Home</span>
+          </div>
+          <div class="d-flex align-items-center p-1 icon_row">
+            <i class="fa-regular fa-circle-play"></i>
+            <span class="lead ps-3 fw-medium">Shorts</span>
+          </div>
+          <div class="d-flex align-items-center p-1 icon_row">
+            <i class="fa-solid fa-play"></i>
+            <span class="lead ps-3 fw-medium">Subscription</span>
+          </div>
+          <hr>
+         <h6>You</h6>
+        
+          <div class="d-flex align-items-center p-1 icon_row">
+            <i class="fa-regular fa-user"></i>
+            <span class="lead ps-3 fw-medium">Your Channel</span>
+          </div>
+          <div class="d-flex align-items-center p-1 icon_row">
+            <i class="fa-solid fa-clock-rotate-left"></i>
+            <span class="lead ps-3 fw-medium">History</span>
+          </div>
+          <div class="d-flex align-items-center p-1 icon_row">
+            <i class="fa-brands fa-vimeo"></i>
+            <span class="lead ps-3 fw-medium">Your videos</span>
+          </div>
+          <div class="d-flex align-items-center p-1 icon_row">
+            <i class="fa-regular fa-clock"></i>
+            <span class="lead ps-3 fw-medium">Watch Later</span>
+          </div>
+          <div class="d-flex align-items-center p-1 icon_row">
+            <i class="fa-regular fa-thumbs-up"></i>
+            <span class="lead ps-3 fw-medium">Liked Videos</span>
+          </div>
+          <hr>
+          <div class="d-flex align-items-center p-1 icon_row">
+            
+            <img
+              height="30px"
+              width="30px"
+              class="mx-1 rounded-circle"
+              src="https://yt3.googleusercontent.com/ytc/AIf8zZTkiRkT3qEwAelXAzT75lV0Oa7PJ9_rPgv78Z0DPahkwMXdofboNVLUeBinyHPQ=s176-c-k-c0x00ffffff-no-rj"
+            />
+            <span class="lead ps-3 fw-medium">Bilal Raza</span>
+          </div>
+          <div class="d-flex align-items-center p-1 icon_row">
+            
+            <img
+              height="30px"
+              width="30px"
+              class="mx-1 rounded-circle"
+              src="https://yt3.googleusercontent.com/ytc/AIf8zZTkm1rprPYvfNcDR0SNPkIXdjX8wGLC4D0Y-HO7=s176-c-k-c0x00ffffff-no-rj"
+            />
+            <span class="lead ps-3 fw-medium">H-H Videos</span>
+          </div>
+          <div class="d-flex align-items-center p-1 icon_row">
+            
+            <img
+              height="30px"
+              width="30px"
+              class="mx-1 rounded-circle"
+              src="https://yt3.googleusercontent.com/_jf_E67Bp1kpADQEgnHs3pWm69ESzqsOA_vCqp1v9EgMDa2PLhY5szYtvc_PRQPmcxRsoOgQsOI=s176-c-k-c0x00ffffff-no-rj"
+            />
+            <span class="lead ps-3 fw-medium">Irfan Jumejo</span>
+          </div>
+          <div class="d-flex align-items-center p-1 icon_row">
+            
+            <img
+              height="30px"
+              width="30px"
+              class="mx-1 rounded-circle"
+              src="https://yt3.googleusercontent.com/ytc/AIf8zZQ6zWLoauhRHE69LfxqlcZegg7QO0iM8SLhVy7_=s176-c-k-c0x00ffffff-no-rj"
+            />
+            <span class="lead ps-3 fw-medium">P4 pakao</span>
+          </div>
+          <div class="d-flex align-items-center p-1 icon_row">
+           
+            <img
+              height="30px"
+              width="30px"
+              class="mx-1 rounded-circle"
+              src="https://yt3.ggpht.com/6OBUmNVrNl74OLYgxdnxJ82JDzFX7iS2EnYlNzLROlNE1lbnd3QjBLmRQDeBzfk0yM2wAjFh=s176-c-k-c0x00ffffff-no-rj-mo"
+            />
+            <span class="lead ps-3 fw-medium">Pakistan Cricket</span>
+          </div>
+          <div class="d-flex align-items-center p-1 icon_row">
+            
+            <img
+              height="30px"
+              width="30px"
+              class="mx-1 rounded-circle"
+              src="https://yt3.ggpht.com/8MgGnCb9dHfbHSEgMwBTXMDn9BFB0ShglqAUlJJeksE_w5GVNzAStk1O6yPnng22_R4lgsWx=s176-c-k-c0x00ffffff-no-rj-mo"
+            />
+            <span class="lead ps-3 fw-medium">Ary News</span>
+          </div>
+          <div class="d-flex align-items-center p-1 icon_row">
+            
+            <img
+              height="30px"
+              width="30px"
+              class="mx-1 rounded-circle"
+              src="https://yt3.ggpht.com/sJ8nMAbzs2lreEaBW2viL9VCvud_FkkDmFRa4es3Y5zOht6PpBNM56pNIAoh395B6FhYaxTFiVM=s176-c-k-c0x00ffffff-no-rj-mo"
+            />
+            <span class="lead ps-3 fw-medium">92 News</span>
+          </div>
+          <hr>
+         <h6>Explore</h6>
+          <div class="d-flex align-items-center p-1 icon_row">
+            <i class="fa-solid fa-fire"></i>
+            <span class="lead ps-3 fw-medium">Trending</span>
+          </div>
+          <div class="d-flex align-items-center p-1 icon_row">
+            <i class="fa-solid fa-music"></i>
+            <span class="lead ps-3 fw-medium">Music </span>
+          </div>
+          <div class="d-flex align-items-center p-1 icon_row">
+            <i class="fa-solid fa-gamepad"></i>
+            <span class="lead ps-3 fw-medium">Gaming</span>
+          </div>
+          <div class="d-flex align-items-center p-1 icon_row">
+            <i class="fa-solid fa-newspaper"></i>
+            <span class="lead ps-3 fw-medium">News</span>
+          </div>
+          <div class="d-flex align-items-center p-1 icon_row">
+            <i class="fa-solid fa-trophy"></i>
+            <span class="lead ps-3 fw-medium">Sports</span>
+          </div>
+          <hr>
+          <h6>More From Youtube</h6>
+          <div class="d-flex align-items-center p-1 icon_row">
+            <i class="fa-brands fa-youtube" style="color: red;"></i>
+            <span class="lead ps-3 fw-medium">Youtube Premium</span>
+          </div>
+          <div class="d-flex align-items-center p-1 icon_row">
+            <i class="fa-brands fa-youtube" style="color: red;"></i>
+            <span class="lead ps-3 fw-medium">Youtube Studio</span>
+          </div>
+          <div class="d-flex align-items-center p-1 icon_row">
+            <i class="fa-brands fa-youtube" style="color: red;"></i>
+            <span class="lead ps-3 fw-medium">Youtube Music</span>
+          </div>
+          <div class="d-flex align-items-center p-1 icon_row">
+            <i class="fa-brands fa-youtube" style="color: red;"></i>
+            <span class="lead ps-3 fw-medium">Youtube Kids</span>
+          </div>
+          <hr>
+          <div class="d-flex align-items-center p-1 icon_row">
+            <i class="fa-solid fa-gear"></i>
+            <span class="lead ps-3 fw-medium">Settings</span>
+          </div>
+          <div class="d-flex align-items-center p-1 icon_row">
+            <i class="fa-regular fa-flag"></i>
+            <span class="lead ps-3 fw-medium">Reports History</span>
+          </div>
+          <div class="d-flex align-items-center p-1 icon_row">
+            <i class="fa-solid fa-question"></i>
+            <span class="lead ps-3 fw-medium">Help</span>
+          </div>
+          <div class="d-flex align-items-center p-1 icon_row">
+            <i class="fa-solid fa-exclamation"></i>
+            <span class="lead ps-3 fw-medium">Sending Feedback</span>
+          </div>
+         
+        </div>
+
+        <div class="col-10 video_container" >
+          <div class="d-flex overflow-x-scroll my-2 " >
+            <span class="bg-secondary-subtle px-3 py-1 rounded"> All </span>
+            <span class="bg-secondary-subtle px-3 py-1 rounded ms-2">
+              Music
+            </span>
+            <span class="bg-secondary-subtle px-3 py-1 rounded ms-2">
+              Mixes
+            </span>
+            <span class="bg-secondary-subtle px-3 py-1 rounded ms-2">
+              HTML
+            </span>
+            <span class="bg-secondary-subtle px-3 py-1 rounded ms-2">
+              Gaming
+            </span>
+            <span class="bg-secondary-subtle px-3 py-1 rounded ms-2">
+              Live
+            </span>
+            <span class="bg-secondary-subtle px-3 py-1 rounded ms-2">
+              Data 
+            </span>
+            <span class="bg-secondary-subtle px-3 py-1 rounded ms-2">
+              Graphics
+            </span>
+            <span class="bg-secondary-subtle px-3 py-1 rounded ms-2">
+              Dramedy
+            </span>
+            <span class="bg-secondary-subtle px-3 py-1 rounded ms-2">
+              Wickets
+            </span>
+            <span class="bg-secondary-subtle px-3 py-1 rounded ms-2">
+              Birds
+            </span>
+            <span class="bg-secondary-subtle px-3 py-1 rounded ms-2">
+              Comedy
+            </span>
+            <span class="bg-secondary-subtle px-3 py-1 rounded ms-2">
+              Art
+            </span>
+            <span class="bg-secondary-subtle px-3 py-1 rounded ms-2">
+              Electronic
+            </span>
+            <span class="bg-secondary-subtle px-3 py-1 rounded ms-2">
+              Batting
+            </span>
+            <span class="bg-secondary-subtle px-3 py-1 rounded ms-2">
+              Css
+            </span>
+            <span class="bg-secondary-subtle px-3 py-1 rounded ms-2">
+              Botstrap
+            </span>
+            <span class="bg-secondary-subtle px-3 py-1 rounded ms-2">
+              Funny
+            </span>
+            <span class="bg-secondary-subtle px-3 py-1 rounded ms-2">
+              Accessories
+            </span>
+            <span class="bg-secondary-subtle px-3 py-1 rounded ms-2">
+              Elections
+            </span>
+            <span class="bg-secondary-subtle px-3 py-1 rounded ms-2">
+              Memes
+            </span>
+            <span class="bg-secondary-subtle px-3 py-1 rounded ms-2">
+              Wrestling
+            </span>
+            <span class="bg-secondary-subtle px-3 py-1 rounded ms-2">
+              Documentries
+            </span>
+            <span class="bg-secondary-subtle px-3 py-1 rounded ms-2">
+              Recently
+            </span>
+            <span class="bg-secondary-subtle px-3 py-1 rounded ms-2">
+              Watched
+            </span>
+           
+          </div>
+
+          <div class="video_cards row row-cols-1 row-md-cols-2 row-lg-cols-3 row-xl-cols-4 justify-content-around">
+            <div class="card my-2" style="width: 20rem">
+              <img
+                src="https://i.ytimg.com/vi/lQClyZAeQaA/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDpXeKbY9QA07_YAv9R9x7UtRibfw"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title"> #psl9</h5>
+                <p class="card-text">
+                    PSL 9 ANTHEM 2024 | ALI ZAFAR | AIMA BAIG | KHUL Kay KHEL #psl #psl8
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card my-2" style="width: 20rem">
+              <img
+                src="https://i.ytimg.com/vi/Rwe5Aw3KPHY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBy0lkx7ig7-bqV4Z6BZ4R_cH_3sw"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">  #8K #DOLBYVISION #HDR</h5>
+                <p class="card-text">
+                    WILD WORLD DOLBY VISION™ | EXTREME COLORS [8K HDR]
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card my-2" style="width: 20rem">
+              <img
+                src="https://i.ytimg.com/vi/c7vtdqiIEPw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBIQj8VfyYw5M8XZmlD_DFPwnyK3A"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Wordpress</h5>
+                <p class="card-text">
+                    How To Make a FREE Professional Website ~Step By Step~ 2024 (WordPress And Elementor For Beginners)
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card my-2" style="width: 20rem">
+              <img
+                src="https://i.ytimg.com/vi/2fONEL2Udwo/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAt4DigIMCAAQARh_IFQoGjAP&rs=AOn4CLAyiEUWk82rX6YzeK4i2NNkwNisgA"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Naat</h5>
+                <p class="card-text">
+                    Hum Madine mai tanha nikal jaye ge | Faslon ko Takalluf Hai humse Agar Lyrics | old Memories lyrics
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card my-2" style="width: 20rem">
+              <img
+                src="https://i.ytimg.com/vi/vqXLGX0szIQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBqPsznkxYfNGUf--CvFG3Cbu6AHg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Web Design Course</h5>
+                <p class="card-text">
+                    Motion Design for the Web | FREE COURSE
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            
+            <div class="card my-2" style="width: 20rem">
+                <img
+                  src="https://i.ytimg.com/vi/yp6tRkS-QBU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAqjQysNCvFm7YDaWs9EU2De6imGA"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Portfolio</h5>
+                  <p class="card-text">
+                   
+
+
+Build a Responsive Portfolio Website Using React JS | Portfolio Website in React
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                  </div>
+                  <div class="card my-2" style="width: 20rem">
+                    <img
+                      src="https://i.ytimg.com/vi/ZftnxdPHyHQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCo58GJgntT6LBlgRBwUI9nL5fFeQ"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">WhatsApp Clone </h5>
+                      <p class="card-text">
+                        Building a WhatsApp Clone with HTML, CSS, and Bootstrap | Urdu Tutorial"
+                      </p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                   </div>
+                      </div>
+                      <div class="card my-2" style="width: 20rem">
+                        <img
+                          src="https://i.ytimg.com/vi/CgkZ7MvWUAA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCM76BB1s7CwOXZpUpuJJn1RusA8Q"
+                          class="card-img-top"
+                          alt="..."
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">React App</h5>
+                          <p class="card-text">
+                           
+
+
+ReactJS Course [1] - What is React? How to setup a React App?
+                          </p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                          </div>
+                          <div class="card my-2" style="width: 20rem">
+                            <img
+                              src="https://i.ytimg.com/vi/Dy7fc6wbINU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCstjf_KNeCR4jLZIjzcGLSrkeb-Q"
+                              class="card-img-top"
+                              alt="..."
+                            />
+                            <div class="card-body">
+                              <h5 class="card-title">Restoration</h5>
+                              <p class="card-text">
+                                Full Restoration 40 Years Old ruined Classic Motorcycle
+                              </p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                              </div>
+                              <div class="card my-2" style="width: 20rem">
+                                <img
+                                  src="https://i.ytimg.com/vi/puJ8qJWkwpY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtqWQ7RBX7JEysCDFpxFDOb_wqVg"
+                                  class="card-img-top"
+                                  alt="..."
+                                />
+                                <div class="card-body">
+                                  <h5 class="card-title">Swing Master</h5>
+                                  <p class="card-text">
+                                   
+
+
+
+Wasim Akram Most Skillful Bowling With The Old Ball - Amazing Reverse Swing Bowling
+                                  </p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                                  </div>
+                                  <div class="card my-2" style="width: 20rem">
+                                    <img
+                                      src="https://i.ytimg.com/vi/phWxA89Dy94/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAL594xnzDxBMGe2ktZoTr_uJVnkQ"
+                                      class="card-img-top"
+                                      alt="..."
+                                    />
+                                    <div class="card-body">
+                                      <h5 class="card-title">Flex Box</h5>
+                                      <p class="card-text">
+                                        
+
+
+
+Learn Flexbox CSS in 8 minutes
+                                      </p>
+                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                      </div>
+                                      <div class="card my-2" style="width: 20rem">
+                                        <img
+                                          src="https://i.ytimg.com/vi/tdiAhkOH6Sc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBQ1Zoe1yyg_ongFLbo7zNv-QJfFA"
+                                          class="card-img-top"
+                                          alt="..."
+                                        />
+                                        <div class="card-body">
+                                          <h5 class="card-title">World Cup</h5>
+                                          <p class="card-text">
+                                            Pakistan vs Australia Under 19 World Cup Semi final Highlights | 2024 | Pak vs Aus Highlights
+                                          </p>
+                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                          </div>
+                                          <div class="card my-2" style="width: 20rem">
+                                            <img
+                                              src="https://i.ytimg.com/vi/dXV4qzQ0ZYs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC_SMS_RU_xg_3zyu7PGqD3VkSY8Q"
+                                              class="card-img-top"
+                                              alt="..."
+                                            />
+                                            <div class="card-body">
+                                              <h5 class="card-title">#8K #DOLBYVISION #HDR</h5>
+                                              <p class="card-text">
+                                               
+
+
+
+
+
+WILD BIRDS - 8K (60FPS) ULTRA HD - With Nature Sounds (Colorfully Dynamic)
+                                              </p>
+                                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            </div>
+                                              </div>
+                                              <div class="card my-2" style="width: 20rem">
+                                                <img
+                                                  src="https://i.ytimg.com/vi/RroDdybvu5s/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDFPa6K-Z2963QrLh_dLGCqY_DEXQ"
+                                                  class="card-img-top"
+                                                  alt="..."
+                                                />
+                                                <div class="card-body">
+                                                  <h5 class="card-title">Portfolio</h5>
+                                                  <p class="card-text">
+                                                   
+
+
+
+Personal Portfolio Website using HTML & CSS
+                                                  </p>
+                                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                </div>
+                                                  </div>
+                                                  <div class="card my-2" style="width: 20rem">
+                                                    <img
+                                                      src="https://i.ytimg.com/vi/SnvROXOtSZk/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARheIF4oXjAP&rs=AOn4CLB6qiV_TivehyGR1LjrbV0IAcyDoQ"
+                                                      class="card-img-top"
+                                                      alt="..."
+                                                    />
+                                                    <div class="card-body">
+                                                      <h5 class="card-title">Naat</h5>
+                                                      <p class="card-text">
+                                                        Kabe Ki Ronak|| Slowed+Reverab || Gulam Mustafa Qadri | Hindi Naat 2023
+                                                      </p>
+                                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                    </div>
+                                                      </div>
+                                                      <div class="card my-2" style="width: 20rem">
+                                                        <img
+                                                          src="https://i.ytimg.com/vi/rklidcZ-aLU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD_tAjiHb1IEAyTIdyiMQWfrNT_MQ"
+                                                          class="card-img-top"
+                                                          alt="..."
+                                                        />
+                                                        <div class="card-body">
+                                                          <h5 class="card-title">HTML COURSE</h5>
+                                                          <p class="card-text">
+                                                            
+
+
+
+
+
+🚀 🔥 HTML Complete Course (2024) for Beginners | Projects | Notes | Github | Certification
+                                                          </p>
+                                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                        </div>
+                                                          </div>
+                                                          <div class="card my-2" style="width: 20rem">
+                                                            <img
+                                                              src="https://i.ytimg.com/vi/d1F2tlkJ2lo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCuvU3a1HjmWCRMGSO_Q2TI9xfoOQ"
+                                                              class="card-img-top"
+                                                              alt="..."
+                                                            />
+                                                            <div class="card-body">
+                                                              <h5 class="card-title">Gawwali</h5>
+                                                              <p class="card-text">
+                                                                
+
+
+
+
+
+Coke Studio Season 8| Tajdar-e-Haram| Atif Aslam
+                                                              </p>
+                                                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                            </div>
+                                                              </div>
+                                                              <div class="card my-2" style="width: 20rem">
+                                                                <img
+                                                                  src="https://i.ytimg.com/vi/45mnmy2JUl0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDVUbSe5Hza3FyWeI_snQOQQeWqJQ"
+                                                                  class="card-img-top"
+                                                                  alt="..."
+                                                                />
+                                                                <div class="card-body">
+                                                                  <h5 class="card-title">Cards</h5>
+                                                                  <p class="card-text">
+                                                                    Stunning HTML & CSS Card Animation
+                                                                  </p>
+                                                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                                </div>
+                                                                  </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
