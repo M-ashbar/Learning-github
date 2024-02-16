@@ -1,0 +1,12 @@
+.action-container{
+    background-color: #0057b8;
+}
+.nav-item >a{
+    color: white;
+}
+.container-fluid >a{
+    color: white;
+    font-weight: bold;
+}
+
+   

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="top_container">
+      <div class="container">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg px-0 mx-0">
+          <div class="container-fluid">
+            <a class="navbar-brand text-light fw-bold" href="#">Booking.com</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul
+                class="navbar-nav ms-auto me-0 mb-2 mb-lg-0 d-flex align-items-center"
+              >
+                <li class="nav-item">
+                  <a class="nav-link text-light" aria-current="page" href="#"
+                    >PKR</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#">Link</a>
+                </li>
+
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-light"
+                    href="#"
+                    tabindex="-1"
+                    aria-disabled="true"
+                    >List your property</a
+                  >
+                </li>
+                <li class="nav-item me-2">
+                  <button class="btn btn-light text-primary">Register</button>
+                </li>
+                <li class="nav-item">
+                  <button class="btn btn-light text-primary">Sign in</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- booking type -->
+        <div class="chip_container d-flex flex-wrap pb-3">
+          <div class="btn me-2 btn-outline-light">
+            <i class="fa-solid fa-bed"></i>
+            <span class="ms-2">Stays</span>
+          </div>
+          <div class="btn me-2 btn-outline-light">
+            <i class="fa-solid fa-plane"></i>
+            <span class="ms-2">Flights</span>
+          </div>
+          <div class="btn me-2 btn-outline-light">
+            <i class="fa-solid fa-car-rear"></i>
+            <span class="ms-2">Car Rentals</span>
+          </div>
+          <div class="btn me-2 btn-outline-light">
+            <i class="fa-solid fa-award"></i>
+            <span class="ms-2">Attraction</span>
+          </div>
+          <div class="btn me-2 btn-outline-light">
+            <i class="fa-solid fa-taxi"></i>
+            <span class="ms-2">Airpots Taxis</span>
+          </div>
+          
+        </div>
+
+
+        <div class="nav-item "> 
+            <h1 class="text text-light">Find Your Next Stay</h1>
+            <h4 class="smtext text-light"> Search low price on hotel,homes and much more</h4>
+        </div>
+        
+      </div>
+    </div>
+
+    <h4 class="text container ">Browse By Property Type</h4>
+    <div class="card-container container d-flex pb-3  ">
+        
+        <div class="card" style="width: 18rem;">
+            <img src="https://q-xx.bstatic.com/xdata/images/xphoto/263x210/57584488.jpeg?k=d8d4706fc72ee789d870eb6b05c0e546fd4ad85d72a3af3e30fb80ca72f0ba57&o=" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Hotel</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://q-xx.bstatic.com/xdata/images/hotel/263x210/119467716.jpeg?k=f3c2c6271ab71513e044e48dfde378fcd6bb80cb893e39b9b78b33a60c0131c9&o=" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Apartments</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://q-xx.bstatic.com/xdata/images/xphoto/263x210/45450084.jpeg?k=f8c2954e867a1dd4b479909c49528531dcfb676d8fbc0d60f51d7b51bb32d1d9&o=" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Resorts</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://q-xx.bstatic.com/xdata/images/hotel/263x210/100235855.jpeg?k=5b6e6cff16cfd290e953768d63ee15f633b56348238a705c45759aa3a81ba82b&o=" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Villas</p>
+            </div>
+          </div>
+          
+          </div>
+    </div>
+
+    <div
+    class="container row  row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5
+    align-items-center justify-content-center text-center my-3"
+  >
+    <div class="col">
+      <div>
+        <a href="#" class="fw-bol"> Guernsey</a>
+        <p class="lead fs-6">61 properties</p>
+      </div>
+      <div>
+        <a href="#" class="fw-bol"> Phuket Province</a>
+        <p class="lead fs-6">5,500 properties</p>
+      </div>
+      <div>
+        <a href="#" class="fw-bol"> Lake District</a>
+        <p class="lead fs-6">2,404 properties</p>
+      </div>
+      <div>
+        <a href="#" class="fw-bol"> Zanzibar</a>
+        <p class="lead fs-6">834 properties</p>
+      </div>
+      <div>
+        <a href="#" class="fw-bol"> Ibiza</a>
+        <p class="lead fs-6">1,640properties</p>
+      </div>
+    </div>
+    <div class="col">
+      <div>
+        <a href="#" class="fw-bol">Uttar Pradesh</a>
+        <p class="lead fs-6">4,375 properties</p>
+      </div>
+      <div>
+        <a href="#" class="fw-bol"> Texel</a>
+        <p class="lead fs-6">410 properties</p>
+      </div>
+      <div>
+        <a href="#" class="fw-bol"> Bali</a>
+        <p class="lead fs-6">12,688 properties</p>
+      </div>
+      <div>
+        <a href="#" class="fw-bol"> Ras Al Khaimah</a>
+        <p class="lead fs-6">113 properties</p>
+      </div>
+      <div>
+        <a href="#" class="fw-bol"> Jersey </a>
+        <p class="lead fs-6">89 properties</p>
+      </div>
+    </div>
+    <div class="col">
+      <div>
+        <a href="#" class="fw-bol"> Cornwall</a>
+        <p class="lead fs-6">5,276 properties</p>
+      </div>
+      <div>
+        <a href="#" class="fw-bol"> England</a>
+        <p class="lead fs-6">73972 properties</p>
+      </div>
+      <div>
+        <a href="#" class="fw-bol"> Santorini</a>
+        <p class="lead fs-6">1,767 properties</p>
+      </div>
+      <div>
+        <a href="#" class="fw-bol"> Hawaii</a>
+        <p class="lead fs-6">5515 properties</p>
+      </div>
+      <div>
+        <a href="#" class="fw-bol"> Bihar</a>
+        <p class="lead fs-6">761 properties</p>
+      </div>
+    </div>
+    <div class="col">
+      <div>
+        <a href="#" class="fw-bol"> Bora Bora</a>
+        <p class="lead fs-6">59 properties</p>
+      </div>
+      <div>
+        <a href="#" class="fw-bol"> Mykonos</a>
+        <p class="lead fs-6">1,452 properties</p>
+      </div>
+      <div>
+        <a href="#" class="fw-bol"> Isle of wight</a>
+        <p class="lead fs-6">934 properties</p>
+      </div>
+      <div>
+        <a href="#" class="fw-bol"> Tenerife</a>
+        <p class="lead fs-6">9,609 properties</p>
+      </div>
+      <div>
+        <a href="#" class="fw-bol"> State park</a>
+        <p class="lead fs-6">21 properties</p>
+      </div>
+    </div>
+    <div class="col">
+      <div>
+        <a href="#" class="fw-bol"> O2 Arena</a>
+        <p class="lead fs-6">14,529 properties</p>
+      </div>
+      <div>
+        <a href="#" class="fw-bol"> DisneyLand Paris</a>
+        <p class="lead fs-6">7,620 properties</p>
+      </div>
+      <div>
+        <a href="#" class="fw-bol"> Burj Al Arab</a>
+        <p class="lead fs-6">4,340 properties</p>
+      </div>
+      <div>
+        <a href="#" class="fw-bol"> Eiffel Tower</a>
+        <p class="lead fs-6">7,620 properties</p>
+      </div>
+      <div>
+        <a href="#" class="fw-bol"> The Shard</a>
+        <p class="lead fs-6">14,529 properties</p>
+      </div>
+    </div>
+  </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
